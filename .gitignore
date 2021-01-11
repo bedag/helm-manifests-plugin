@@ -1,0 +1,3 @@
+# Don't Add Dependencies
+values-generator/charts/
+values-generator/Chart.lock

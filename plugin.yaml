@@ -1,0 +1,8 @@
+name: "manifests"
+version: "0.1.0"
+usage: "Get Manifest Values"
+description: "Get Manifest Values"
+ignoreFlags: false
+command: "$HELM_PLUGIN_DIR/generator.sh"
+hooks:
+  install: "$HELM_PLUGIN_DIR/generator.sh -h"
