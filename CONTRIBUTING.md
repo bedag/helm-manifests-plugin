@@ -2,16 +2,33 @@
 
 We'd love to accept your patches and contributions to this project. There are just a few small guidelines you need to follow.
 
-## Sign off Your Work
+# How to Contribute
 
-The Developer Certificate of Origin (DCO) is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project. Here is the full text of the [DCO](./DCO). Contributors must sign-off each commit by adding a Signed-off-by line to commit messages.
+With these steps you can make a contribution:
+
+  1. Fork this repository, develop and test your changes on that fork.
+  2. Commit your changes
+  3. Submit a pull request from your fork to this project.
+
+## Commits
+
+Please have meaningful commit messages.
+
+### Commit Signature Verification
+
+Each commit's signature must be verified.
+
+  * [About commit signature verification](https://docs.github.com/en/free-pro-team@latest/github/uthenticating-to-github/about-commit-signature-verification)
+
+### Sign off Your Work
+
+The Developer Certificate of Origin (DCO) is a lightweight way for contributors to certify that they wrote or therwise have the right to submit the code they are contributing to the project. Here is the full text of the DCO](./DCO). Contributors must sign-off each commit by adding a Signed-off-by line to commit messages.
 
 This is my commit message
 
 ```
 Signed-off-by: Random J Developer <random@developer.example.org>
 See git help commit:
-
 -s, --signoff
     Add Signed-off-by line by the committer at the end of the commit log
     message. The meaning of a signoff depends on the project, but it typically
@@ -20,13 +37,6 @@ See git help commit:
     http://developercertificate.org/ for more information).
 ```
 
-# How to Contribute
-
-With these steps you can make a contribution:
-
-  1. Fork this repository, develop and test your changes on that fork.
-  2. All commits have a meaningful description, are signed off as described above and verified.
-  3. Submit a pull request from your fork to this project.
 
 ## Code reviews
 

@@ -1,8 +1,8 @@
 # values
 
-![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.16.0](https://img.shields.io/badge/AppVersion-1.16.0-informational?style=flat-square)
+![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.0.0](https://img.shields.io/badge/AppVersion-1.0.0-informational?style=flat-square)
 
-A Helm chart for Kubernetes
+Plugin Dependency Chart
 
 ## Requirements
 
@@ -14,10 +14,10 @@ A Helm chart for Kubernetes
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
-| doc.key | string | `""` |  |
+| doc.key | string | `""` | Overwrite the top key for the values. E.g. for the manifest statefulset the default top key is "statefulset", which has all other keys as child. With this option you can change this key to e.g. "frontend" |
 | doc.manifest | string | `""` |  |
-| doc.minimal | bool | `false` |  |
-| doc.path | string | `""` | If you want your values to be in a more complex structure, you can define the yaml path. This mostly matters for all the helm-docs fields being generated. |
+| doc.minimal | bool | `false` | A single manifest can have a lot of values. With enabling minimal output the values which come from sub templates or manifests will only be referenced as comment but not printed to keep your values slim. |
+| doc.path | string | `""` | If you want your values to be in a more complex structure, you can define the yaml path. This mostly matters for all the helm-docs fields being generated (eg. "custom.sub.path"). |
 | doc.preset | string | `""` | Define which preset to render (e.g. "permissions") |
 
 ----------------------------------------------
