@@ -16,7 +16,7 @@
 
 ## -- Help Context
 show_help() {
-cat << 'EOF'
+cat << EOF
 
 Usage: ${0##*/} [-h] [ [-m] manifest || [-p] preset ] [-k] parentkey [-P] keypath [-a] helm_args [-M]
     -m [manifest]      Manifest Name
