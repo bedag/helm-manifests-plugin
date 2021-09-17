@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 # Copyright © 2021 Bedag Informatik AG
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,7 +16,7 @@
 
 ## -- Help Context
 show_help() {
-cat << EOF
+cat << 'EOF'
 
 Usage: ${0##*/} [-h] [ [-m] manifest || [-p] preset ] [-k] parentkey [-P] keypath [-a] helm_args [-M]
     -m [manifest]      Manifest Name
